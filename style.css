@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-image: url('https://source.unsplash.com/1600x900/?nature');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 15px;
+    width: 350px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input {
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 10px 0 0 10px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li.completed {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+li i {
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+}
+
+li .fa-trash {
+    color: #dc3545;
+}
+
+li .fa-check {
+    color: #28a745;
+}
+
+li i:hover {
+    opacity: 0.8;
+}
+
+li button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
